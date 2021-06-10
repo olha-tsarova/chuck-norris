@@ -1,0 +1,35 @@
+.quote {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  
+  &__text-wrapper {
+    position: absolute;
+    top: 165px;
+    right: 0;
+    left: 0;
+
+    padding: 24px;
+    height: 162px;
+
+    background-color: #422ED4;
+    border-radius: 25px;
+    box-shadow: 0 100px 80px rgba(80, 76, 103, 0.07), 0 0 10.0172px rgba(80, 76, 103, 0.035);
+  }
+
+  &__text {
+    margin: 0;
+    color: #fff;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &__image {
+    position: absolute;
+    top: 12px;
+    right: 24px;
+    z-index: -1;
+  }
+}

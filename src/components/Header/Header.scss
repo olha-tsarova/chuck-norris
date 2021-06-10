@@ -1,0 +1,29 @@
+.header {
+  height: 59px;
+  background-color: #422ED4;
+  position: relative;
+
+  &__link {
+    padding: 8px;
+    position: absolute;
+    left: 10%;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 400ms;
+
+    &:hover {
+      color: #000;
+    }
+
+    &--logo {
+      height: 43px;
+      width: 43px;
+    }
+  }
+}
